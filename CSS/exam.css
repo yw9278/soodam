@@ -1,0 +1,115 @@
+@import url('common.css');
+
+.flex_1{
+    width:640px; height:500px;
+    margin:50px auto;
+}
+.flex_1 h2{text-align: center;font-size: 60px;}
+.flex_1 ul{
+    height:50%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    border:1px solid #fff;
+    list-style: none;
+}
+.flex_1 ul li{
+    width:30%;}
+.flex_1 ul li img{width:200px;height: 200px;}
+.flex_1 ul li:nth-of-type(2){padding-left: 20px;padding-right: 20px;}
+
+
+
+.flex_2{
+    width:90%; height:600px;
+    margin:100px auto;
+}
+.flex_2 h2{font-size: 50px;}
+.flex_2 div{
+    height:100%;
+    border:1px solid #000;
+    background-color:#fff;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flex_2 div strong{
+    font-size:50px;;
+}
+.flex_2 div p{font-size: 30px;
+    color:#000;}
+.flex_2 div a{
+    padding:10px 60px;
+    border:2px solid #555;
+    display:inline-block;
+}
+
+
+
+
+.flex_3{
+    width:640px; height:500px;
+    margin:50px auto;
+}
+
+.flex_3 h2{text-align: center;font-size: 60px;}
+.flex_3 ul{
+    height:50%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    border:1px solid #fff;
+    list-style: none;
+}
+.flex_3 ul li{
+    width:30%;}
+.flex_3 ul li :nth-of-type(1){width:200px;height: 200px;}
+ :nth-of-type(2){padding-left: 20px;padding-right: 20px;}
+
+
+
+
+
+.s2 h2{font-size: 50px;
+text-align: center}
+
+.s2{
+    margin:100px auto;
+    width:80%;
+    background:#eee;
+}
+.s2:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.s2 > div{
+    border:1px solid #000;
+    padding:20px;
+    width:500px; height:400px;
+
+    overflow:hidden;
+    box-sizing: border-box;        
+}
+.s2 .left{float:left;}
+.s2 .right{float:right;}
+
+
+
+
+.t_3_2 p{
+    width:610px; height:607px;
+   
+    margin:100px auto;
+/*    padding:200px;*/
+    overflow:hidden;
+    font-size:20px;}
+    
+    .t_3_2 h1 {
+    width:610px; margin:0 auto;
+   
+        right:0; top:0; text-decoration-color: aquamarine;}
+

@@ -1,0 +1,53 @@
+@import url('common.css');
+
+.flex_1{
+    width:1280px; height:1300px;
+    margin:50px auto;
+}
+.flex_1 h2{}
+.flex_1 ul{
+    height:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    border:1px solid #000;
+}
+.flex_1 ul li{
+    width:30%;
+}
+.flex_1 ul li img{width:100%;}
+
+
+/*========flex_2============*/
+
+.flex_2{
+    width:90%; height:600px;
+    margin:100px auto;
+}
+.flex_2 h2{}
+.flex_2 div{
+    height:100%;
+    border:10px solid #000;
+    background-color:#fff;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flex_2 div strong{
+    font-size:5em;
+}
+.flex_2 div p{color:#777;}
+.flex_2 div a{
+    padding:10px 30px;
+    border:2px solid #555;
+    display:inline-block;
+}
+
+
+
+
+
+
+

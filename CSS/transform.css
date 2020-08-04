@@ -1,0 +1,144 @@
+@import url('common.css');
+
+html,
+body {
+    background: none;
+    height: 100%;
+}
+
+article {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+article h2 {
+    text-align: center;
+}
+
+article div {
+    width: 600px;
+    margin: 0 auto;
+}
+
+article div img {
+    width: 100%;
+}
+
+.t_1 {}
+
+.t_1 div {
+    overflow: hidden;
+}
+
+.t_1 div img {
+    transition: 3s linear, opacity 2s 1s;
+}
+
+.t_1 div:hover img {
+    transform: scale(2);
+    opacity: .5;
+}
+
+
+.t_2 {}
+
+.t_2 div {
+    border: 1px solid #000;
+}
+
+.t_2 div img {
+    transition: 5s;
+    transform-origin: 70% 100%;
+}
+
+.t_2 div:hover img {
+    transform: rotate(45deg);
+}
+
+
+.t_3 {}
+
+.t_3 div {
+    border: 1px solid #000;
+    perspective: 280px;
+    background: #fff
+}
+
+.t_3 div img {
+    transition: 5s;
+
+}
+
+.t_3 div:hover img {
+    transform: rotateY(30deg) scale(.2);
+}
+
+.t_3 {
+    background: #eee;
+}
+
+.t_3 :hover {
+    transition: .3s;
+    transform-origin: center bottom;
+    transform: perspective(2000px)rotateY(30deg)
+}
+
+
+
+
+.t_4 {}
+.t_4 h2{position: relative;}
+
+.t_4 div {
+    border: 1px solid #000;}
+  
+
+.t_4 div img {
+    transition: 5s;
+
+}
+
+.t_4 div:hover img {
+    transform: skrew( 30deg,30deg); 
+}
+
+.t_5 {}
+
+
+.t_5 div {
+    border: 1px solid #000;}
+  
+
+.t_5 div img {
+    transition: 5s;
+
+}
+
+.t_5 div:hover img {
+    transform: translate(-10%, -10%);30deg,30deg); 
+}
+
+
+.t_ex {}
+
+
+.t_ex div {
+    border: 2px solid #a5c0b4;
+;}
+  
+
+.t_ex div img {
+    transition: 5s linear, opacity 2s 1s;
+
+}
+
+.t_ex div:hover img {
+    transform:  translate(-10%, -10%);opacity: .3;
+}
+
+
